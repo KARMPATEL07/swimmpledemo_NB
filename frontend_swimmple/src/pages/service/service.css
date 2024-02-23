@@ -1,0 +1,52 @@
+.service-container {
+    padding: 0 32px;
+    text-align: center;
+    background-color: white;
+}
+
+.service-description{
+    margin: 64px;
+    text-align: center;
+    color: rgb(77, 75, 75);
+    font-family: 'Rubik', sans-serif;
+    font-size: 18px;
+    letter-spacing: .8px;
+    line-height: 1.8rem;
+}
+.service-main{
+    margin: 64px 0 128px 0;
+}
+
+.service-title{
+    font-family: 'Poppins', sans-serif;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.service-offers{
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.offer-one{
+    margin-left: 100px;
+}
+
+.offer-two{
+    margin-right: 100px;
+}
+
+.offer-title{
+    font-family: 'Poppins', sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.offer-items{
+    margin: 4px;
+    text-align: left;
+    color: rgb(77, 75, 75);
+    font-family: 'Rubik', sans-serif;
+    font-size: 18px;
+}

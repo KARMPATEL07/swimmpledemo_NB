@@ -1,0 +1,214 @@
+/* **************
+ * BASE STYLES * 
+ ***************/
+
+.pricing * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+
+/* html {
+  font-size: 62.5%;
+} */
+
+/* body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: #6702fa;
+  font-size: 1.60px;
+  font-weight: 400;
+  font-family: "Open Sans", sans-serif;
+} */
+
+
+
+
+/* Title */
+.title {
+  font-size: 40px;
+  color: #6702fa;
+  padding-top: 7px;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 50px;
+  margin-top: 50px;
+}
+
+
+/*********
+ * CARDS * 
+ *********/
+
+.cards {
+  padding-bottom: 10 px;
+}
+
+/* Styles for every card */
+.card {
+  width: 90%;
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 40px 20px;
+  background: white;
+  border-radius: 15px;
+  box-shadow: 0 0 5px #ebebeb;
+}
+
+/* Second card */
+.card--multisite {
+  position: relative;
+  margin: 20px auto;
+}
+
+.card__badge {
+  background: #f9e16c;
+  color: #283fa7;
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding: 5px 10px 5px 5px;
+  border-bottom-left-radius: 30px;
+  font-family: "Open Sans", sans-serif;
+  font-size: 10px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.card__plan,
+.card__price,
+.card__period {
+  color: #6702fa;
+}
+
+.card__plan {
+  font-size: 20px;
+  font-weight: 400;
+  letter-spacing: 1px;
+}
+
+.card__price {
+  font-size: 40px;
+  font-weight: 700;
+  margin-bottom: 0.50px;
+}
+
+.card__price::after {
+  content: "/ month";
+  position: relative;
+  left: 5px;
+  font-weight: 400;
+  font-size: 15px;
+}
+
+.card__period {
+  position: relative;
+  left: -5px;
+  font-weight: 400;
+  font-size: 1.50px;
+}
+
+.card__description,
+.card__feature {
+  color: #767679;
+}
+
+.card__description {
+  font-size: 20px;
+  /* letter-spacing: 5px; */
+  /* line-height: 2px; */
+}
+
+/* Dividing line below description */
+.card__description::after {
+  content: "";
+  height: 15px;
+  width: 100%;
+  display: block;
+  background: #ebebeb;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+.card__feature {
+  display: flex;
+  align-items: center;
+  margin-bottom: 5px;
+  font-size: 20px;
+}
+
+/* Checkmark icons */
+.feature__icon {
+  width: 18px;
+  margin-right: 6.50px;
+  color: #00cc39;
+}
+
+/* Feature text next to checkmark */
+.feature__text {
+  letter-spacing: 0.5px;
+}
+
+.card__btn {
+  width: 100%;
+  background: #6702fa;
+  color: white;
+  margin-top: 20px;
+  padding: 14px 0;
+  border: none;
+  border-radius: 5px;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 600;
+  font-size: 20px;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+/* These styles will be applied to devices with a width of at least 1025px */
+@media screen and (min-width: 1025px) {
+  .cards {
+    display: flex;
+    justify-content: center;
+    width: 97%;
+  }
+
+  .card {
+    width: auto;
+    margin: 0;
+  }
+
+  /* Second card */
+  .card--multisite {
+    margin: 0 10px;
+  }
+}
+
+/* These styles will be applied to devices with a width of at least 1270px */
+@media screen and (min-width: 1270px) {
+  .title {
+    font-size: 50px;
+  }
+
+
+  .cards {
+    width: 100%;
+  }
+
+  /* Second card */
+  .card--multisite {
+    margin: 0 20px;
+  }
+}
+
+/* If the device supports hover, we change the button background color */
+@media (hover: hover) {
+  .card__btn:hover {
+    background: #5902d8;
+  }
+}

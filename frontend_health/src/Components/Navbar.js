@@ -31,7 +31,6 @@ function Navbar() {
     <div className="navbar-section">
       <h1 className="navbar-title">
         <Link to="/">
-          {/* Swimmple <span className="navbar-sign">≈</span> */}
           <img src="https://swimmpledemo.netlify.app/assets/logomain.png" alt="Swimmple" className="navbar-logo" />
         </Link>
       </h1>

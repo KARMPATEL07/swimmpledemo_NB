@@ -1,0 +1,36 @@
+.about-card{
+    height: auto;
+    border: 2px solid #d7d3d3;
+    border-radius: 12px;
+    background-color: white;
+    position: relative;
+}
+
+.about-card-title {
+    margin: 32px 0 40px 0;
+    color: black;
+    font-family: 'Poppins', sans-serif;
+    font-size: 28px;
+    font-weight: bold;
+    letter-spacing: .8px;    
+}
+.about-card-description {
+    margin: 24px;
+    color: rgb(77, 75, 75);    
+    font-family: 'Rubik', sans-serif;
+    font-size: 18px;
+    letter-spacing: .8px;
+    line-height: 1.5rem;
+}
+.about-card-icon {
+    position: absolute;
+    top: -24px;
+    left: 44%;
+    padding: 10px;
+    background-color: #DCE6FF;
+    border-radius: 30px;
+}
+.about-fa-icon {
+    height: 30px;
+    width: auto;
+}
